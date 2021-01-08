@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#575757"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Returned Book #1"
+        android:background="#08fcf5"
+        android:id="@+id/returnbooktext1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book ID: "
+        android:background="#f3ef09"
+        android:layout_below="@+id/returnbooktext1"
+        android:id="@+id/bookidtext1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:background="#f3ef09"
+        android:layout_below="@id/returnbooktext1"
+        android:layout_toRightOf="@+id/bookidtext1"
+        android:id="@+id/bookiddata1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issue Date : "
+        android:layout_below="@+id/bookiddata1"
+        android:background="#f00c18"
+        android:id="@+id/issuedatetext1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issue Date"
+        android:background="#f00c18"
+        android:layout_below="@+id/bookiddata1"
+        android:layout_toRightOf="@+id/issuedatetext1"
+        android:id="@+id/issuedatedata1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Date : "
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/bookiddata1"
+        android:background="#cdf06e"
+        android:layout_toRightOf="@+id/issuedatedata1"
+        android:id="@+id/returndatetext1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Date : "
+        android:background="#cdf06e"
+        android:layout_below="@+id/bookiddata1"
+        android:layout_toRightOf="@+id/returndatetext1"
+        android:id="@+id/returndatedata1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Name : "
+        android:background="#4aff14"
+        android:layout_below="@+id/issuedatetext1"
+        android:id="@+id/returnbooknametext1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Name"
+        android:background="#4aff14"
+        android:layout_below="@+id/returnbooknametext1"
+        android:id="@+id/returnbooknamedata1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/returnbooknamedata1"
+        android:layout_marginTop="50dp"
+        android:text="Returned Book #2"
+        android:background="#08fcf5"
+        android:id="@+id/returnbooktext2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book ID: "
+        android:background="#f3ef09"
+        android:layout_below="@+id/returnbooktext2"
+        android:id="@+id/bookidtext2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:background="#f3ef09"
+        android:layout_below="@id/returnbooktext2"
+        android:layout_toRightOf="@+id/bookidtext2"
+        android:id="@+id/bookiddata2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issue Date : "
+        android:background="#f00c18"
+        android:layout_below="@+id/bookiddata2"
+        android:id="@+id/issuedatetext2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issue Date"
+        android:background="#f00c18"
+        android:layout_below="@+id/bookiddata2"
+        android:layout_toRightOf="@+id/issuedatetext2"
+        android:id="@+id/issuedatedata2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Date : "
+        android:layout_marginLeft="50dp"
+        android:background="#cdf06e"
+        android:layout_below="@+id/bookiddata2"
+        android:layout_toRightOf="@+id/issuedatedata2"
+        android:id="@+id/returndatetext2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Date : "
+        android:background="#cdf06e"
+        android:layout_below="@+id/bookiddata2"
+        android:layout_toRightOf="@+id/returndatetext2"
+        android:id="@+id/returndatedata2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Name : "
+        android:background="#4aff14"
+        android:layout_below="@+id/issuedatetext2"
+        android:id="@+id/returnbooknametext2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Name"
+        android:background="#4aff14"
+        android:layout_below="@+id/returnbooknametext2"
+        android:id="@+id/returnbooknamedata2"
+        />
+
+
+</RelativeLayout>

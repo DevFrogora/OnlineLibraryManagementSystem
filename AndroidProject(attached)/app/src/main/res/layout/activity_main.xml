@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg_login"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Library User Login"
+        android:textColor="#ff0000"
+        android:textColorHighlight="#00ff00"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/tv1"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="150dp"
+        android:background="#01ffff"
+        android:hint="\t \t \t \tEnter Email"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/et1"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="40dp"
+        android:background="#01ffff"
+        android:hint="\t \t \t \tEnter password"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/et2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Generate password"
+        android:padding="3dp"
+        android:textColor="#dcff32"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:background="#ff3232"
+        android:onClick="generatePassword"
+        android:id="@+id/bt1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/bt1"
+        android:text="Login"
+        android:paddingHorizontal="60dp"
+        android:textColor="#ff1313"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:background="#7dff32"
+        android:onClick="loginUser"
+        android:id="@+id/bt2"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d3d3d"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Button as required"
+        android:background="#4cfd33"
+        android:textStyle="bold"
+        android:textColor="#f72b2b"
+        android:textSize="20sp"
+        android:id="@+id/tvv1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="#d4ff2a"
+        android:background="#2abeff"
+        android:paddingHorizontal="38dp"
+        android:layout_below="@+id/tvv1"
+        android:onClick="openProfile"
+        android:id="@+id/bt1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/bt1"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textColor="#d4ff2a"
+        android:background="#2abeff"
+        android:onClick="openNotification"
+        android:paddingHorizontal="25dp"
+        android:layout_below="@+id/tvv1"
+        android:id="@+id/bt2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Books Borrow"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="#d4ff2a"
+        android:background="#2abeff"
+        android:paddingHorizontal="2dp"
+        android:layout_below="@+id/bt1"
+        android:onClick="openBookBorrow"
+        android:id="@+id/bt3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Books Return"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/bt3"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textColor="#d4ff2a"
+        android:background="#2abeff"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@+id/bt2"
+        android:onClick="openReturnBook"
+        android:id="@+id/bt4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="#d4ff2a"
+        android:background="#2abeff"
+        android:paddingHorizontal="38dp"
+        android:layout_below="@+id/bt3"
+        android:onClick="logoutUser"
+        android:id="@+id/bt5"
+        />
+
+
+
+
+
+</RelativeLayout>

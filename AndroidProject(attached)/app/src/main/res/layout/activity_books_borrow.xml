@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#575757"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Books Borrow #1"
+        android:background="#08fcf5"
+        android:visibility="invisible"
+        android:id="@+id/borrowtitle1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borrowtitle1"
+        android:background="#86f532"
+        android:text="Book ID: "
+        android:visibility="invisible"
+        android:id="@+id/bkidborrow1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borrowtitle1"
+        android:layout_toRightOf="@+id/bkidborrow1"
+        android:background="#86f532"
+        android:text="ID"
+        android:visibility="invisible"
+        android:id="@+id/borrowiddata1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/borrowiddata1"
+        android:layout_below="@+id/borrowtitle1"
+        android:background="#f7e506"
+        android:text="Date :"
+        android:visibility="invisible"
+        android:id="@+id/borrowdatetxt1"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borrowtitle1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/borrowdatetxt1"
+        android:background="#f7e506"
+        android:visibility="invisible"
+        android:id="@+id/borrowdatedata1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkidborrow1"
+        android:text="Book Name: "
+        android:visibility="invisible"
+        android:background="#ed51f8"
+        android:id="@+id/bkname1text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkname1text"
+        android:text="bkname"
+        android:visibility="invisible"
+        android:background="#f86851"
+        android:id="@+id/bkname1data"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkname1data"
+        android:layout_marginTop="50dp"
+        android:text="Books Borrow #2"
+        android:visibility="invisible"
+        android:background="#08fcf5"
+        android:id="@+id/borrowtitle2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borrowtitle2"
+        android:background="#86f532"
+        android:visibility="invisible"
+        android:id="@+id/bkidborrow2"
+        android:text="Book ID: "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borrowtitle2"
+        android:layout_toRightOf="@+id/bkidborrow2"
+        android:text="ID"
+        android:visibility="invisible"
+        android:background="#86f532"
+        android:id="@+id/borrowiddata2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/borrowiddata2"
+        android:layout_below="@+id/borrowtitle2"
+        android:text="Date :"
+        android:visibility="invisible"
+        android:background="#f7e506"
+        android:id="@+id/borrowdatetxt2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/borrowdatetxt2"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/borrowtitle2"
+        android:background="#f7e506"
+        android:visibility="invisible"
+        android:id="@+id/borrowdatedata2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkidborrow2"
+        android:text="Book Name: "
+        android:visibility="invisible"
+        android:background="#ed51f8"
+        android:id="@+id/bkname2text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkname2text"
+        android:text="bkname"
+        android:visibility="invisible"
+        android:background="#f86851"
+        android:id="@+id/bkname2data"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkname2data"
+        android:text="Loading"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#10f0f0"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loadingbookborrow"
+        />
+
+
+</RelativeLayout>
